@@ -12,7 +12,7 @@ site_theme               : "contrast" # The available themes options are "defaul
 title                    : "Wang Rong / 王 荣"
 title_separator          : "-"
 name                     : &name "Wang Rong"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description | "Wang Rong’s homepage<br>王荣的主页"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://rogerswangcdc.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "RogerWangCDC/RogerWangCDC.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Wang Rong | 王 荣"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Electrical Designer"
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rogers500@163.com" 
 
   # Academic websites
   academia         : # URL
