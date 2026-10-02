@@ -8,15 +8,15 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Wang Rong / 王 荣"
 title_separator          : "-"
 name                     : &name "Wang Rong"
-description              : &description "Wang Rong’s homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Wang Rong’s homepage 王荣的主页"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://rogerswangcdc.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "RogerWangCDC/RogerWangCDC.github.io"
+repository               : "RogersWangCDC/RogersWangCDC.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Electrical Designer"
   location         : "Chongqing, China"
-  employer         : "CISDI ELECTRIC TECHNOLOGY CO.,LTD"
+  employer         : "CISDI Electric Technology CO.,LTD"
   uri              : # URL
   email            : "rogerswang@yeah.net" 
 
@@ -80,7 +80,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : " rogerswang-18323"# Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -155,7 +155,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :    # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -302,7 +302,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
